@@ -37,6 +37,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     //aws s3
     implementation("org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE")
+    runtimeOnly("mysql:mysql-connector-java")
     implementation("com.amazonaws.secretsmanager:aws-secretsmanager-jdbc:1.0.8")
     implementation("com.amazonaws:aws-java-sdk-s3:1.11.478")
     //query dsl 시작
